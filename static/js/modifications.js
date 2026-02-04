@@ -17,7 +17,6 @@ function spinEl(el) {
     el.classList.remove("spinclass");
   }, 10000); // 10 seconds
 }
-spinbody();
 
 function neonizeButtons() {
   document.querySelectorAll("button").forEach((b) => {
@@ -58,7 +57,7 @@ function simple() {
   // hue rotate
 
   console.log("doing hue change");
-  //   body.classList.add("simplehuechange");
+  body.classList.add("simplehuechange");
 
   body.classList.add("contrastchange");
 }

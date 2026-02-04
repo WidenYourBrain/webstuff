@@ -3,7 +3,7 @@
 @use "../utils/mixins.scss" as *;
 
 body {
-  @include bodyStyling;
+  // @include bodyStyling;
 }
 .square {
   height: 300px;

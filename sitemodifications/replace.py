@@ -12,11 +12,11 @@ def replacestyles(css_path, js_path):
     print(full_js_path)
     print(full_css_path)
 
-    # Read the CSS file
+    
     with open(css_path, "r") as css_file:
         css_code = css_file.read()
 
-    # Prepare the JS code
+    # test message to confirm
     testmessage='console.log("Yo mama")'
     js_code = f'''
 const style = document.createElement("style");

@@ -1,3 +1,4 @@
+
 const style = document.createElement("style");
 style.textContent = `@keyframes colorwheel {
   0% {
@@ -53,35 +54,9 @@ body.darkmode {
   filter: invert(1) hue-rotate(180deg);
 }
 
-body {
-  scroll-behavior: smooth;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    "Open Sans",
-    "Helvetica Neue",
-    sans-serif;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  gap: 10px;
-}
-
 .square {
   height: 300px;
   width: 300px;
-} /*# sourceMappingURL=main.css.map */
-`;
+}/*# sourceMappingURL=main.css.map */`;
 document.head.appendChild(style);
+console.log("Yo mama")
