@@ -1,6 +1,6 @@
-@use "huerotate.scss";
-@use "spin.scss";
-@use "mixins.scss" as *;
+@use "sitemodifications/huerotate.scss";
+@use "sitemodifications/spin.scss";
+@use "../utils/mixins.scss" as *;
 
 body {
   @include bodyStyling;

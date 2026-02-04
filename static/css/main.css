@@ -40,6 +40,10 @@
   font-weight: bold;
 }
 
+body.darkmode {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 body {
   scroll-behavior: smooth;
   display: flex;
