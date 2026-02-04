@@ -15,7 +15,7 @@ style.textContent = `@keyframes colorwheel {
 }
 
 .simplehuechange {
-  filter: hue-rotate(180deg);
+  filter: hue-rotate(100deg);
 }
 
 .contrastchange {
@@ -34,6 +34,7 @@ style.textContent = `@keyframes colorwheel {
   }
 }
 .spinclass {
+  display: inline-block;
   animation: spin 10s ease;
 }
 

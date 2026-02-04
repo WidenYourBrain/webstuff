@@ -9,6 +9,7 @@ function spinbody() {
   }, 10000); // 10 seconds
 }
 
+wikiheader = document.querySelector("h1#firstHeading span");
 function spinEl(el) {
   // this function takes an argument "el" and applies the spin animation to whatever element
   // the element should already be queried and declared in javascript
@@ -34,7 +35,7 @@ function replaceWords() {
         // Only text nodes
         if (node.textContent.includes("a")) {
           // If text contains "a"
-          node.textContent = "replaced";
+          node.textContent = "WidenYourBrain";
           // Replace all "a"s with "replaced"
         }
       }
@@ -48,7 +49,7 @@ function clearSite() {
 
   // Create a new paragraph
   const p = document.createElement("p");
-  p.textContent = "blank site yoooo";
+  p.textContent = "blank site yoooo <br> sub to my YouTube lowkey";
 
   document.body.appendChild(p);
 }

@@ -14,7 +14,7 @@
 }
 
 .simplehuechange {
-  filter: hue-rotate(108deg);
+  filter: hue-rotate(100deg);
 }
 
 .contrastchange {
@@ -33,6 +33,7 @@
   }
 }
 .spinclass {
+  display: inline-block;
   animation: spin 10s ease;
 }
 
