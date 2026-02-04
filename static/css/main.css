@@ -13,6 +13,10 @@
   animation: colorwheel 10s ease;
 }
 
+.simplehuechange {
+  filter: hue-rotate(180deg);
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);

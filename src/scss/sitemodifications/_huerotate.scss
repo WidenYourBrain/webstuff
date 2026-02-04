@@ -13,3 +13,7 @@
 .colorclass {
   animation: colorwheel 10s ease;
 }
+
+.simplehuechange {
+  filter: hue-rotate(180deg);
+}
