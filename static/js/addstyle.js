@@ -1,4 +1,3 @@
-
 const style = document.createElement("style");
 style.textContent = `@keyframes colorwheel {
   0% {
@@ -59,4 +58,4 @@ body.darkmode {
   width: 300px;
 }/*# sourceMappingURL=main.css.map */`;
 document.head.appendChild(style);
-console.log("Yo mama")
+console.log("Yo mama");

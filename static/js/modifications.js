@@ -59,5 +59,5 @@ function simple() {
   console.log("doing hue change");
   body.classList.add("simplehuechange");
 
-  body.classList.add("contrastchange");
+  // body.classList.add("contrastchange");
 }
