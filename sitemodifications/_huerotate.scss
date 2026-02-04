@@ -1,0 +1,15 @@
+@keyframes colorwheel {
+  0% {
+    filter: hue-rotate(0deg) contrast(90%) saturate(100%);
+  }
+  50% {
+    filter: hue-rotate(1080deg) contrast(260%) saturate(300%);
+  }
+  100% {
+    filter: hue-rotate(0deg) contrast(90%) saturate(100%);
+  }
+}
+
+.colorclass {
+  animation: colorwheel 10s ease;
+}

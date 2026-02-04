@@ -1,0 +1,11 @@
+@use "huerotate.scss";
+@use "spin.scss";
+@use "mixins.scss" as *;
+
+body {
+  @include bodyStyling;
+}
+.square {
+  height: 300px;
+  width: 300px;
+}
