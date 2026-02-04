@@ -9,6 +9,13 @@ function spinbody() {
   }, 10000); // 10 seconds
 }
 
+function huebody() {
+  body.classList.add("colorclass");
+  setTimeout(() => {
+    body.classList.remove("colorclass");
+  }, 10000); // 10 seconds
+}
+
 wikiheader = document.querySelector("h1#firstHeading span");
 function spinEl(el) {
   // this function takes an argument "el" and applies the spin animation to whatever element
