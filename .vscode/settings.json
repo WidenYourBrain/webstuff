@@ -1,0 +1,16 @@
+{
+  "liveSassCompile.settings.showOutputWindow": false,
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded", // can be "compressed" if you want minified
+      "extensionName": ".css",
+      "savePath": "/static/css" // this is where the final CSS will be saved
+    }
+  ],
+  "liveSassCompile.settings.includeItems": [
+    "/src/scss/**/*.scss" // compile all SCSS in your src/scss folder
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", "**/_*.scss"],
+  "liveServer.settings.port": 5503
+}
