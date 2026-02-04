@@ -56,5 +56,6 @@ function clearSite() {
 
 function simple() {
   // hue rotate
+  console.log("doing hue change");
   body.classList.add("simplehuechange");
 }

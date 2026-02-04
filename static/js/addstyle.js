@@ -1,5 +1,8 @@
 const style = document.createElement("style");
 style.textContent = `
+
+
+
 @keyframes colorwheel {
   0% {
     filter: hue-rotate(0deg) contrast(90%) saturate(100%);
@@ -69,5 +72,8 @@ body {
   height: 300px;
   width: 300px;
 }/*# sourceMappingURL=main.css.map */
+
+
+
 `;
 document.head.appendChild(style);
