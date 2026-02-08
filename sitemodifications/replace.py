@@ -9,6 +9,8 @@ def replacestyles(css_path, js_path):
     # Full paths
     full_css_path = os.path.normpath(os.path.join(base_dir, css_path))
     full_js_path = os.path.normpath(os.path.join(base_dir, js_path))
+
+    modificationspath=os.path.normpath(os.path.join(base_dir, "static/js/modifications.js"))
     print(full_js_path)
     print(full_css_path)
 
@@ -16,9 +18,13 @@ def replacestyles(css_path, js_path):
     with open(css_path, "r") as css_file:
         css_code = css_file.read()
 
+    with open(modificationspath) as mfile:
+        mcode=mfile.read()
+
     # test message to confirm
-    testmessage='console.log("Yo mama")'
+    testmessage='console.log("added the css code");'
     js_code = f'''
+{mcode}
 const style = document.createElement("style");
 style.textContent = `{css_code}`;
 document.head.appendChild(style);
